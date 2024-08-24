@@ -153,19 +153,27 @@ h6 {
   margin-bottom: 15px;
   font-family: "rift-medium";
 }
-.content-des > p {
+.content-des {
   font-family: serif;
   font-size: 15px;
-  margin: 0 0 15px;
+  margin: 0 20px 15px; /* Căn lề trái và phải 20px */
   color: #6b6d7b;
 }
 /* ==========================================================Course */
 .course-container-detail {
-  background-color: #00377a;
+  /* background-color: #00377a; */
   color: #fff;
   width: 90%;
   float: right;
 }
+.course-content-detail{
+  background-color: #00377a;
+}
+.course-content-detail-1{
+  background-color: #ffffff;
+  color:#000;
+}
+
 .content-left {
   margin-bottom: 2rem;
 }
@@ -173,6 +181,12 @@ h6 {
   padding: 5.3rem 4.3rem;
 }
 .course-content-detail > h4 {
+  font-size: 34px;
+}
+.course-content-detail-1 {
+  padding: 5.3rem 4.3rem;
+}
+.course-content-detail-1 > h4 {
   font-size: 34px;
 }
 .res-half > p {
@@ -469,7 +483,6 @@ table td {
     width: 66.666%;
   }
   .accordion-body .to-half {
-    width: 50%;
     float: left;
   }
   .course-container-detail {
@@ -545,4 +558,11 @@ table td {
   position: absolute;
   top: 12px;
   right: 12px;
+}
+
+/* Custom link social */
+.link-custom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

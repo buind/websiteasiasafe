@@ -52,6 +52,26 @@ include('header.php') ?>
                                     <p>Degree of Master in Traffic Safety Engineering </p>
                                 </div>
                             </div>
+                            <div class="course-content-detail-1">
+                                <div class="res-half">
+                                    <!-- Youtube: Khoa MT&ATGT - YouTube
+                                    Facebook trường: Facebook
+                                    Facebook Khoa: Facebook
+                                    Website trường: TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI (utc.edu.vn)
+                                    Website Khoa: Khoa Môi trường và An toàn giao thông (utc.edu.vn)
+                                    Website asiasafe: Asia Safe – Official Website
+                                    -->
+                                    <h6>Youtube:</h6>
+                                    <p><a class="link-custom" href="https://www.youtube.com/@KhoaMTATGT">Khoa MT&ATGT</a></p>
+                                    <h6>Facebook:</h6>
+                                    <p><a class="link-custom" href="https://www.facebook.com/dhgtvtcaugiay">Trường Đại học Giao thông vận tải Hà Nội</a></p>
+                                    <p><a class="link-custom" href="https://www.youtube.com/@KhoaMTATGT">Khoa MT&ATGT</a></p>
+                                    <h6>Website:</h6>
+                                    <p><a class="link-custom" href="https://utc.edu.vn">Trường Đại học Giao thông vận tải</a></p>
+                                    <p><a class="link-custom" href="http://tse.utc.edu.vn/">Khoa Môi trường và An toàn giao thông</a></p>
+                                    <p><a class="link-custom" href="https://asiasafe.utc.edu.vn"> Asia Safe - Official Website</a></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
