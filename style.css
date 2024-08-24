@@ -153,6 +153,17 @@ h6 {
   margin-bottom: 15px;
   font-family: "rift-medium";
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
+
+.title-main-blog h5 {
+  font-family: "Roboto", sans-serif;
+  color: #00377a;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
 .content-des {
   font-family: serif;
   font-size: 15px;
@@ -618,4 +629,47 @@ table td {
 
 .active-link-default {
   color: #0c1059 !important; /* Adjust this color as needed */
+}
+
+/* Blog */
+.img-blog{
+  margin: 5px;
+  width: 100%;
+}
+
+.blog p{
+  font-size: 16px;
+  color:#000;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+}
+.news-item {
+  text-decoration: none;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.news-item img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+.news-content {
+  padding: 10px;
+}
+.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #00377a;
+}
+.news-description {
+  font-size: 14px;
+  color: #555;
 }

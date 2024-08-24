@@ -1,12 +1,12 @@
 <?php
 $url = $_SERVER['REQUEST_URI'];
 $menuItems = array(
-    array("url" => "index.php", "label" => "Home"),
-    array("url" => "program.php", "label" => "Program"),
-    array("url" => "scholarships.php", "label" => "Scholarships"),
-    array("url" => "enrollment.php", "label" => "Enrollment"),
-    array("url" => "new.php", "label" => "News"),
-    array("url" => "about.php", "label" => "About")
+    array("url" => "../index.php", "label" => "Home"),
+    array("url" => "../program.php", "label" => "Program"),
+    array("url" => "../scholarships.php", "label" => "Scholarships"),
+    array("url" => "../enrollment.php", "label" => "Enrollment"),
+    array("url" => "../new.php", "label" => "News"),
+    array("url" => "../about.php", "label" => "About")
 );
 ?>
 <!DOCTYPE html>
@@ -16,8 +16,8 @@ $menuItems = array(
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="shortcut icon" href="./image/logoutc.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="./image/logoutc.png" />
+    <link rel="shortcut icon" href="../image/logoutc.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../image/logoutc.png" />
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.8.162/pdf.min.js" integrity="sha512-9Wd08apcJEwm8g3lBTg1UW/njdN0iuuOVWKpyinK3uA7ISAE5PmEZ4y8bZYTXVOE3tlt7aFlCBBLmLt5cUxe2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -29,7 +29,7 @@ $menuItems = array(
         <div class="container">
             <div class="column one">
                 <div class="top_bar_left clearfix">
-                    <img src="./image/banner.png" height="auto" alt="">
+                    <img src="../image/banner.png" height="auto" alt="">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container">
                             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
