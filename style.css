@@ -167,8 +167,9 @@ h6 {
 .content-des {
   font-family: serif;
   font-size: 15px;
-  margin: 0 20px 15px; /* Căn lề trái và phải 20px */
+  /* margin: 0 20px 15px; */
   color: #6b6d7b;
+  text-align: justify;
 }
 /* ==========================================================Course */
 .course-container-detail {
