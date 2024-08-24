@@ -79,7 +79,7 @@ h6 {
 .nav-item > a {
   text-transform: uppercase;
   font-size: 15px;
-  color: #00377a !important;
+  color: #00377a;
   font-weight: 600;
   line-height: 30px;
   font-family: "Poppins", sans-serif;
@@ -196,7 +196,7 @@ h6 {
 }
 .course-container-fixed {
   margin-top: 0;
-  position: fixed;
+  /* position: fixed; */
   top: 170px;
   width: 433.2px;
   padding: 0;
@@ -476,9 +476,9 @@ table td {
   .main-content .content {
     flex-wrap: nowrap;
   }
-  .course-container-fixed {
+  /* .course-container-fixed {
     position: fixed;
-  }
+  } */
   .main-content {
     width: 66.666%;
   }
@@ -565,4 +565,57 @@ table td {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+/* Positive static for content2 */
+.accordion,.program,.scholarships{
+  margin-top: -500px;
+}
+
+/* Social-images */
+.img-social{
+  width: 90%;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 20px 0px;
+  border: 1px solid;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+.social-click {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #1a4141;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.social-click:hover {
+  opacity: 90%;
+}
+
+.social-click:active {
+  background-color: #003865;
+  border-color: #002752;
+}
+
+.active-link {
+  color: #fab309 !important; /* Adjust this color as needed */
+}
+
+.active-link-default {
+  color: #0c1059 !important; /* Adjust this color as needed */
 }

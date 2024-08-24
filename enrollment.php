@@ -61,15 +61,21 @@ include('header.php') ?>
                                     Website Khoa: Khoa Môi trường và An toàn giao thông (utc.edu.vn)
                                     Website asiasafe: Asia Safe – Official Website
                                     -->
-                                    <h6>Youtube:</h6>
-                                    <p><a class="link-custom" href="https://www.youtube.com/@KhoaMTATGT">Khoa MT&ATGT</a></p>
-                                    <h6>Facebook:</h6>
-                                    <p><a class="link-custom" href="https://www.facebook.com/dhgtvtcaugiay">Trường Đại học Giao thông vận tải Hà Nội</a></p>
-                                    <p><a class="link-custom" href="https://www.youtube.com/@KhoaMTATGT">Khoa MT&ATGT</a></p>
-                                    <h6>Website:</h6>
-                                    <p><a class="link-custom" href="https://utc.edu.vn">Trường Đại học Giao thông vận tải</a></p>
-                                    <p><a class="link-custom" href="http://tse.utc.edu.vn/">Khoa Môi trường và An toàn giao thông</a></p>
-                                    <p><a class="link-custom" href="https://asiasafe.utc.edu.vn"> Asia Safe - Official Website</a></p>
+                                    <div class="img-social" style="background-image: url('./image/youtube.png')">
+                                        <div><a href="https://www.youtube.com/@KhoaMTATGT" class="social-click">Click Now</a></div>
+                                    </div>
+                                    <div class="img-social" style="background-image: url('./image/img-fbtruong.png')">
+                                        <div><a href="https://www.facebook.com/dhgtvtcaugiay" class="social-click">Click Now</a></div>
+                                    </div>
+                                    <div class="img-social" style="background-image: url('./image/img-khoa.png')">
+                                        <div><a href="https://www.facebook.com/khoamoitruongvaantoangiaothong" class="social-click">Click Now</a></div>
+                                    </div>
+                                    <div class="img-social" style="background-image: url('./image/img-webtruong.png')">
+                                        <div><a href="https://utc.edu.vn" class="social-click">Click Now</a></div>
+                                    </div>
+                                    <div class="img-social" style="background-image: url('./image/img-webkhoa.png')">
+                                        <div><a href="http://tse.utc.edu.vn/" class="social-click">Click Now</a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

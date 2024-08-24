@@ -1,11 +1,12 @@
 <?php
 $url = $_SERVER['REQUEST_URI'];
 $menuItems = array(
-    array("url" => "index.php", "label" => "About"),
+    array("url" => "index.php", "label" => "Home"),
     array("url" => "program.php", "label" => "Program"),
     array("url" => "scholarships.php", "label" => "Scholarships"),
     array("url" => "enrollment.php", "label" => "Enrollment"),
-    array("url" => "new.php", "label" => "News")
+    array("url" => "new.php", "label" => "News"),
+    array("url" => "about.php", "label" => "About")
 );
 ?>
 <!DOCTYPE html>
@@ -56,6 +57,18 @@ $menuItems = array(
                             </a>
                         <?php endforeach; ?>
                     </div>
+                    <script>
+                        var page = window.location.pathname.split("/").pop();
+                        var navLinks = document.querySelectorAll(".nav-link");
+                        navLinks.forEach((link) => {
+                            if (link.href.includes(page)) {
+                                link.classList.add("active-link");
+                            }
+                            else {
+                                link.classList.add("active-link-default");
+                            }
+                        });
+                    </script>
                 </div>
             </div>
         </div>
