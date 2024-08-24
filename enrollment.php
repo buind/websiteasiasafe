@@ -76,6 +76,9 @@ include('header.php') ?>
                                     <div class="img-social" style="background-image: url('./image/img-webkhoa.png')">
                                         <div><a href="http://tse.utc.edu.vn/" class="social-click">Click Now</a></div>
                                     </div>
+                                    <div class="img-social" style="background-image: url('./image/asia.png')">
+                                        <div><a href="https://asiasafe.info/" class="social-click">Click Now</a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

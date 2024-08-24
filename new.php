@@ -2,11 +2,6 @@
 <div class="container">
     <div id="main">
         <div class="main-content">
-            <div id="images" class="hidden">
-                <img width="100%" src="./image/thuvien.JPG">
-                <img width="100%" src="./image/Program4.jpg">
-                <img width="100%" src="./image/Program3.jpg">
-            </div>
             <div class="content">
                 <div class="p-3 content-right">
                     <div class="title-main">
@@ -79,6 +74,9 @@
                                     </div>
                                     <div class="img-social" style="background-image: url('./image/img-webkhoa.png')">
                                         <div><a href="http://tse.utc.edu.vn/" class="social-click">Click Now</a></div>
+                                    </div>
+                                    <div class="img-social" style="background-image: url('./image/asia.png')">
+                                        <div><a href="https://asiasafe.info/" class="social-click">Click Now</a></div>
                                     </div>
                                 </div>
                             </div>

@@ -60,6 +60,9 @@ $menuItems = array(
                     <script>
                         var page = window.location.pathname.split("/").pop();
                         var navLinks = document.querySelectorAll(".nav-link");
+                        if (page === "") {
+                            page = "index.php";
+                        }
                         navLinks.forEach((link) => {
                             if (link.href.includes(page)) {
                                 link.classList.add("active-link");
